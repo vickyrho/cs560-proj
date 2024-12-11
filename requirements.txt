@@ -1,0 +1,8 @@
+pandas==2.2.2
+ipython==8.27.0
+matplotlib==3.9.0
+z3-solver==4.13.0.0
+scikit-learn==1.4.2
+numpy==1.26.4
+hdbscan==0.8.40
+plotly==5.22.0
