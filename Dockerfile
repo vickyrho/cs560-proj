@@ -31,6 +31,5 @@ COPY used_cars_india.csv /app/used_cars_india.csv
 RUN pip install jupyter
 
 # Specify the command to execute the notebook
-# CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
 CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root", "--NotebookApp.token=''"]
 
